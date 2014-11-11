@@ -5,7 +5,7 @@ find_package(catkin REQUIRED)
 catkin_package()
 catkin_python_setup()
 
-install(FILES plugin.xml
+install(FILES plugin.xml bag_plugin.xml
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
